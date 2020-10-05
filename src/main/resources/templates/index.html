@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+</head>
+<script>
+    const defaultWechatConfig = {
+        // 企业微信配置
+        agentId: '1000002',//企业微信内自行获取
+        appId: "wwfdef7cb83450039d",//企业微信内自行获取
+        callbackUrl: "https://c9c2d702480a.ngrok.io/login/code",//企业微信内自行配置获取
+        state: ""//企业微信内自行配置获取
+    };
+
+    function loadScript(callback) {
+        let s = document.createElement("script");
+        s.setAttribute(
+            "src",
+            "http://rescdn.qqmail.com/node/ww/wwopenmng/js/sso/wwLogin-1.0.0.js"
+        );
+        document.head.appendChild(s);
+        s.onload = function() {
+            callback();
+        };
+    }
+
+    loadScript(function() {
+        var w = defaultWechatConfig;
+        window.WwLogin({
+            id: "js-layout-login-login-wechat-qrcode",
+            appid: w.appId,
+            agentid: w.agentId,
+            redirect_uri: w.callbackUrl,
+            state: w.state
+        });
+    });
+
+</script>
+<body>
+this is test index page!
+<div id="js-layout-login-login-wechat-qrcode" class="layout_qrcode" />
+</body>
+</html>
