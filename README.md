@@ -28,3 +28,7 @@ wechat:
 6. 根据自己需要修改各个 `handler` 的实现，加入自己的业务逻辑。
 
 ### 微信扫码登录操作时序图
+![sequence-digram](https://github.com/zclhit/WeComScanToLoginDemo/blob/main/wecom-scan-to-login.png)
+
+### 配置方式
+详见我的个人博客中关于集成企业微信扫码登录的详细介绍：
