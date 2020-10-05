@@ -1,4 +1,4 @@
-[![Github](http://github-svg-buttons.herokuapp.com/star.svg?user=binarywang&repo=WeComScanToLoginDemo&style=flat&background=1081C1)](https://github.com/zclhit/WeComScanToLoginDemo)
+[![Github](http://github-svg-buttons.herokuapp.com/star.svg?user=zclhit&repo=WeComScanToLoginDemo&style=flat&background=1081C1)](https://github.com/zclhit/WeComScanToLoginDemo)
 -----------------------
 
 ### 本项目基于 `WxJava` 的 Demo 演示程序，基于 `Spring Boot` 构建，实现企业微信扫码登录功能。
