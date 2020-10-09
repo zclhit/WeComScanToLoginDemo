@@ -34,3 +34,5 @@ wechat:
 详见我的个人博客中关于集成企业微信扫码登录的详细介绍：
 
 [业务网站集成企业微信扫码登录实战](https://zclhit.blog.csdn.net/article/details/108929511)
+
+或者直接查看[项目wiki](https://github.com/zclhit/WeComScanToLoginDemo/wiki)
